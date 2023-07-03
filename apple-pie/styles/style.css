@@ -5,14 +5,36 @@ html {
   font-size: 16px;
 }
 
+
+
+.title{
+ background-image: url("./../images/apple-pie.jpg");
+ background-position: center;
+ background-size: cover;
+ height:calc(50vh - 50px);
+ color: white;
+ text-align:center;
+ padding-top: 20%;
+ justify-content: center;
+ margin: auto;
+ display: block;
+ position: relative;
+ font-size: 50px;
+}
+
+
+
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: lighter;
+img {
+  display: flex;
+  justify-content:center;
+  width: 40%;
+  margin: auto;
+  display: block;
 }
 
 /*  Set the font */
